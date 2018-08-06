@@ -1,4 +1,4 @@
-package com.aleks.codility;
+package com.aleks.codility.iterations;
 
 /**
  * Binary Gap Solution in Java
