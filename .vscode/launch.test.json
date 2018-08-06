@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "codility",
+                "projectName": "codility",
+                "workingDirectory": "c:\\Users\\Aleks\\Desktop\\Codility\\codility",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "codility",
+                "projectName": "codility",
+                "workingDirectory": "c:\\Users\\Aleks\\Desktop\\Codility\\codility",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
