@@ -1,1 +1,1 @@
-# Codility
+# Codility Tests Training
