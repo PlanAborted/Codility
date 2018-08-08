@@ -9,8 +9,16 @@ package com.aleks.codility.prefixsums;
  */
 public class PassingCars {
     public static int solution(int[] A) {
+        // Simple counter to keep at any moment how much cars passed heading to East
         int counterEast = 0;
+
+        // Simple counter to keep how many cars heading to East passed cars heading to West
         int passingCars = 0;
+
+        // Whenever a car goes to East, increase the counterEast
+        // Whenever a car goes to West, it'll pass all the cars already going to East,
+        // so increment passingCars by the amount of cars heading to East already encountered (counterEast)
+        // If the number of passingCars exceeds 1 000 000 000, return -1
         for (int i = 0; i < A.length; i++) {
             if (A[i] == 0)
                 counterEast++;
