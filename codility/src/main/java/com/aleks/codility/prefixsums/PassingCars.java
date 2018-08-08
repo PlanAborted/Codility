@@ -9,7 +9,7 @@ package com.aleks.codility.prefixsums;
  */
 public class PassingCars {
     public static int solution(int[] A) {
-        // Simple counter to keep at any moment how much cars passed heading to East
+        // Simple counter to keep at any moment how many cars are heading to East
         int counterEast = 0;
 
         // Simple counter to keep how many cars heading to East passed cars heading to West
