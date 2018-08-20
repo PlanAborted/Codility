@@ -1,7 +1,5 @@
 package com.aleks.codility.stacksqueues;
 
-import java.util.Stack;
-
 /**
  * Nesting Solution in Java
  * DEMO : https://app.codility.com/demo/results/training2PSK3T-6PS/
